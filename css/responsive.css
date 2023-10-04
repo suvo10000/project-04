@@ -1,0 +1,328 @@
+/*======================================
+   Tablet layout css start
+========================================*/
+@media only screen and (min-width:200px) and (max-width:991px){
+
+  .inner-header .menu-bar{
+    height: 39px;
+  }
+
+  .inner-header .menu-bar ul li a{
+    padding: 10px 15px;
+  }
+
+  .inner-introducton .caption p{
+    font-size: 50px;
+    margin-left: -400px;
+  }
+
+  .inner-introducton .caption .a-first{
+    margin-left: -370px;
+  }
+
+  .inner-introducton .caption a{
+    padding: 8px 35px;
+  }
+
+  #about-area{
+    width: 98%;
+  }
+  .inner-about .written-area h2::after{
+    left: 130px;
+  }
+
+  .inner-about .written-area a{
+    margin-left: 90px;
+  }
+
+  .inner-about .corona-2-area img{
+    width: 300px;
+    height: 300px;
+  }
+
+  #hero-area{
+    width: 98%;
+  }
+
+  .inner-hero .written-area a{
+    margin-left: 50px;
+  }
+
+  #action{
+    width: 98%;
+  }
+
+  #action .inner-action .action-area a{
+    padding: 10px 30px;
+    background-color: #05254d;
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    margin-left:30px;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+
+  #cases-area{
+    width: 98%;
+  }
+
+  #cases-area .cases-container .containers .images{
+    margin-left: 90px;
+  }
+
+  #doctors{
+    width: 98%;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  #doctors .doctors-area .doctors-container img{
+    margin-left: 80px;
+    margin-top: -50px;
+  }
+
+  #update .update-container form input{
+    margin-left: 180px;
+    margin-top: 40px;
+  }
+
+  #update .update-container a{
+    margin-left: 280px;
+    padding: 12px 30px;
+  } 
+}
+
+/*======================================
+   Tablet layout css end
+========================================*/
+
+
+
+
+
+/*======================================
+   Mobile layout css start
+========================================*/
+
+
+@media only screen and (min-width:200px) and (max-width:480px){
+
+
+  .inner-header .search-bar{
+    width: 8%;
+  }
+
+  .inner-header .menu-bar{
+    width: 100%;
+  }
+
+  .inner-header .user{
+    width: 8%;
+    float: right;
+    margin-top: -71px;
+  }
+
+
+  #introducton-area{
+    width: 98%;
+    height: 380px;
+    clear: both;
+    margin: 0 auto; 
+  }
+
+  .inner-introducton .caption p{
+    font-size: 35px;
+    margin-top: 499px;
+    margin-left: 0px;
+  }
+
+  .inner-introducton .caption .a-first{
+    margin-left: -50px;
+  }
+
+  .inner-introducton .caption a{
+    padding: 10px 25px;
+    margin-left: 10px;
+  }
+
+  #about-area{
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+    clear: both;
+    margin-top: -150px;
+  }
+
+  .inner-about .written-area h2::after{
+    top: 60px;
+    left: 50px;
+  }
+
+  .inner-about .corona-2-area img{
+    width: 250px;
+    height: 250px;
+  }
+
+  .inner-about .written-area{
+    padding-top: 0px;
+  }
+
+  .inner-about .written-area h2{
+    margin-top: 15px;
+  }
+  
+  .inner-about .written-area a{
+    margin-left: 0px;
+  }
+
+  #hero-area{
+    width: 98%;
+    margin-top: 60px;
+  }
+
+  .inner-hero .image-area{
+    width: 97%;
+  }
+
+  .inner-hero .written-area{
+    width: 97%;
+    float: none;
+  }
+
+  .inner-hero .written-area h2{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .inner-hero .written-area p{
+    text-align: center;
+  }
+  
+
+  .inner-hero .written-area a{
+    margin-left: 100px;
+  }
+
+  #action{
+    width: 98%;
+  }
+
+  #action .caption-area h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.3em;
+  }
+
+  #action .inner-action{
+    border-radius: 0px;
+  }
+
+  #action .inner-action .action-area{
+    width: 29%;
+    margin-top: 15px;
+  }
+
+  #action .inner-action .action-area img{
+    margin-left: 40px;
+  }
+
+  #action .inner-action .action-area a{
+    padding: 5px 5px;
+    margin: 5px;
+  }
+
+  #cases-area{
+    width: 98%;
+  }
+
+  #cases-area .written-part h2{
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+
+  #cases-area .written-part p{
+    text-align-last: auto;
+  }
+
+  #cases-area .cases-container .containers{
+    width: 97%;
+    margin: 1%;
+  }
+
+  #cases-area .cases-container .containers .images{
+    width: 40px;
+    height: 40px;
+    margin-left: 170px;
+  }
+
+  #doctors{
+    width: 98%;
+  }
+  
+  #doctors .caption-area h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.3em;
+  }
+
+  #doctors .doctors-area .doctors-container{
+    width: 97%;
+  }
+
+  #doctors .doctors-area .doctors-container img{
+    margin-left: 110px;
+  }
+  
+  #update{
+    width: 97%;
+  }
+
+  #update .caption h2{
+    font-size: 30px;
+   line-height: 1.3em;
+  }
+
+  #update .update-container form input{
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 70px;
+    margin-top: 40px;
+  }
+
+  #update .update-container a{
+    margin-left: 100px;
+  } 
+
+  .inner-footer .footer-area{
+    width: 97%;
+  }
+
+  .inner-footer .footer-area h3{
+    text-align: center;
+    position: relative;
+  }
+
+  .inner-footer .footer-area h3::after{
+    width: 80px;
+    height: 5px;
+    top: 25px;
+    left: 160px;
+    position: absolute;
+    content: "";
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .inner-footer .footer-area p{
+    text-align: center;
+  }
+
+  .inner-footer .last-child img{
+    margin-left: 30px;
+  }
+}
+
+/*======================================
+   Mobile layout css end
+========================================*/

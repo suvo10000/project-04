@@ -1,0 +1,733 @@
+/*======================================
+   common css start
+========================================*/
+
+*, *::after , *::before{
+  box-sizing: inherit;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  line-height: 1.5em;
+  background-color:#eaeae3;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+/*======================================
+   common css end
+========================================*/
+
+
+
+
+
+/*======================================
+   header css start
+========================================*/
+
+#header-area{
+  width: 98%;
+  clear: both;
+  margin: 0 auto; 
+}
+
+#header-area .inner-header{
+  overflow: hidden;
+}
+
+.inner-header .search-bar{
+  width: 4%;
+  float: left;
+  padding: 1%;
+  background-color: #00132b;
+  transition: 0.5s;
+}
+
+.inner-header .search-bar .fa-solid {
+  color: white;
+  transition: 0.5s;
+}
+
+.inner-header .search-bar:hover{
+  background-color: white;
+}
+
+.inner-header .search-bar:hover .fa-solid {
+  color: rgb(0, 0, 0);
+}
+
+.inner-header .menu-bar{
+  width: 92%;
+  float: left;
+}
+
+.inner-header .menu-bar ul{
+  margin: 0 ;
+  padding: 0;
+  background-color: #ed242e;
+  text-align: center;
+}
+
+.inner-header .menu-bar ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+.inner-header .menu-bar ul li a{
+  padding: 12px 30px;
+  display: block;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  transition: 0.5s;
+}
+
+.inner-header .menu-bar ul li a:hover{
+  font-size: 17px;
+}
+
+
+.inner-header .user{
+  width: 4%;
+  float: left;
+  padding: 1%;
+  background-color: #00132b;
+  transition: 0.5s;
+}
+
+.inner-header .user .fa-solid {
+  color: white;
+  transition: 0.5s;
+}
+
+.inner-header .user:hover {
+  background-color: white;
+}
+
+.inner-header .user:hover .fa-solid{
+  color: #00132b;
+} 
+
+/*======================================
+   header css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+   introducton-area css start
+========================================*/
+
+#introducton-area{
+  width: 98%;
+  height: 700px;
+  clear: both;
+  margin: 0 auto; 
+}
+
+.inner-introducton{
+   position: relative;
+  overflow: hidden;
+}
+
+.inner-introducton .image{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.2);
+  z-index: -99999;
+}
+
+.inner-introducton .caption{
+  width:100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 100px;
+  position: absolute;
+  top: -500px;
+  left: 0;
+  z-index: 99;
+}
+
+.inner-introducton .caption p{
+  font-size: 70px;
+  margin-top: 580px;
+  display: block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  font-weight: bolder;
+  line-height: 1.1em;
+  margin-bottom: 0;
+  margin-left: -600px;
+  margin-bottom: 20px;
+}
+
+.inner-introducton .caption a{
+  padding: 10px 50px;
+  background-color: white;
+  color: #00132b;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.inner-introducton .caption a:hover{
+  background-color: #f71c27;
+  color: white;
+}
+
+.inner-introducton .caption .a-first{
+  margin-left: -600px;
+}
+
+/*======================================
+   introducton-area css end
+========================================*/
+
+
+
+
+
+/*======================================
+   about-area css start
+========================================*/
+
+#about-area{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  clear: both;
+  margin-top: -140px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+}
+
+#about-area .inner-about{
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.inner-about .written-area{
+  padding-top: 30px;
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+.inner-about .written-area h2{
+  font-size: 30px;
+  color: #081419;
+  text-align: center;
+  position: relative;
+}
+
+.inner-about .written-area h2::after{
+  width: 100px;
+  position: absolute;
+  content: "";
+  height: 5px;
+  top: 35px;
+  left: 180px;
+  background-color: red;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+.inner-about .written-area p{
+  color: #464b4e;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom:39px;
+}
+
+.inner-about .written-area a{
+  margin-left: 150px;
+  padding: 15px 40px;
+  background-color: #05254d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.inner-about .written-area a:hover{
+  background-color: #f71c27;
+  color: white;
+}
+
+.inner-about .corona-1-area{
+  width: 10%;
+  float: left;
+  margin-top: 251px;
+  margin-left: 38px;
+}
+
+.inner-about .corona-2-area{
+  width: 40%;
+  float: left;
+  margin-left: -38px;
+}
+
+.inner-about .corona-2-area img{
+  width: 335px;
+  height: 335px;
+}
+
+/*======================================
+   about-area css end
+========================================*/
+
+
+
+
+
+/*======================================
+   hero-area css start
+========================================*/
+
+#hero-area{
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 150px;
+  clear: both;
+}
+
+#hero-area .inner-hero{
+  overflow: hidden;
+}
+
+.inner-hero .image-area{
+  width: 48%;
+  margin: 1%;
+  float: left;
+}
+
+.inner-hero .written-area{
+  width: 38%;
+  float: right;
+  margin: 1%;
+}
+
+.inner-hero .written-area h2{
+  margin-top: 5px;
+  font-size: 40px;
+  line-height: 1.1em;
+  color: #151515;
+}
+
+.inner-hero .written-area p{
+  color: #151515;
+  margin-top: 0;
+  text-align-last: center;
+}
+
+.inner-hero .written-area a{
+  padding: 10px 35px;
+  background-color: #05254d;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.inner-hero .written-area a:hover{
+  background-color: #f71c27;
+  color: white;
+}
+
+/*======================================
+   hero-area css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+   action css start
+========================================*/
+
+#action{
+  width: 75%;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 100px;
+  clear: both;
+}
+
+#action .caption-area{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#action .caption-area h2{
+  text-align: center;
+  font-size: 35px;
+  color: #1b1b1b;
+}
+
+#action .caption-area p{
+  text-align-last: center;
+  font-size: 16px;
+  color: #151515;
+}
+
+#action .inner-action{
+  width: 100%;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 80px;
+  background-color: #1b1b1ba2;
+}
+
+#action .inner-action img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scale(1.9);
+  object-position: center;
+  z-index: -999;
+}
+
+#action .inner-action .action-area{
+  width: 29%;
+  margin: 2%;
+  float: left;
+  z-index: 999;
+  margin-top: 130px;
+  background-color: white;
+  z-index: -9999;
+  border-radius: 7px;
+}
+
+#action .inner-action .action-area img{
+  width: 25px;
+  height: 25px;
+  margin-left: 120px;
+  z-index: 999;
+  margin-top: 20px;
+}
+
+#action .inner-action .action-area h3{
+  text-align: center;
+  margin-top: 70px;
+  color: rgb(0, 0, 0);
+}
+
+#action .inner-action .action-area p{
+  margin: 0;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  text-align-last: center;
+}
+
+
+
+#action .inner-action .action-area a:hover{
+  background-color: #f71c27;
+  color: white;
+}
+
+
+/*======================================
+   action css start
+========================================*/
+
+
+
+
+
+
+
+/*======================================
+   cases-area css start
+========================================*/
+
+#cases-area{
+  width: 75%;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 100px;
+  margin-bottom: 400px;
+  clear: both;
+}
+
+#cases-area .written-part{
+  width: 80%;
+  margin: 0 auto;
+}
+
+#cases-area .written-part h2{
+  text-align: center;
+  font-size: 35px;
+  color: #1b1b1b;
+}
+
+#cases-area .written-part p{
+  text-align-last: center;
+}
+
+#cases-area .cases-container{
+  width: 100%;
+  position: relative;
+  
+}
+
+#cases-area .cases-container .containers{
+  width: 31%;
+  margin: 1%;
+  float: left;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#cases-area .cases-container .containers img{
+  padding: 6px;
+}
+
+#cases-area .cases-container .containers h3{
+  font-size: 21px;
+  text-align: center;
+}
+
+#cases-area .cases-container .containers p{
+  padding: 0 10px;
+  margin-bottom: 10px;
+}
+
+#cases-area .cases-container .containers .images{
+  width: 40px;
+  height: 40px;
+  margin-left: 120px;
+}
+
+/*======================================
+   cases-area css end
+========================================*/
+
+
+
+
+
+/*======================================
+   doctors css start
+========================================*/
+
+#doctors{
+  width: 70%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#doctors .caption-area{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#doctors .caption-area h2{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 600px;
+  color: #1b1b1b;
+}
+
+#doctors .doctors-area{
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#doctors .doctors-area .doctors-container{
+  width: 47%;
+  margin: 1%;
+  float: left;
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#doctors .doctors-area .doctors-container img{
+  margin-left: 100px;
+  margin-top: -50px;
+}
+
+#doctors .doctors-area .doctors-container h3{
+  font-size: 21px;
+  text-align: center;
+  
+}
+
+#doctors .doctors-area .doctors-container p{
+  text-align-last: center;
+  padding: 0 10px;
+}
+
+#doctors .doctors-area .doctors-container .dot{
+  margin-top:20px ;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+
+/*======================================
+   DOCTOR css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+   update css start
+========================================*/
+
+#update{
+  width: 98%;
+  margin: 0 auto;
+  clear: both;
+}
+
+#update .caption{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#update .caption h2{
+  text-align: center;
+  font-size: 35px;
+  margin-top: 100px;
+  color: #1b1b1b;
+}
+
+#update .update-container{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(237, 36, 46, 0.493);
+  border-radius: 25px;
+}
+
+#update .update-container img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scale(1.9);
+  object-fit: cover;
+  object-position:left bottom ;
+  z-index: -999;
+}
+
+#update .update-container form input{
+  width: 50%;
+  margin: 0 auto;
+  margin-left: 250px;
+  margin-top: 40px;
+  padding: 7px 0;
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+#update .update-container form input::placeholder{
+  color: white;
+  padding-left: 20px;
+}
+
+#update .update-container a{
+  display: inline-block;
+  margin-left: 450px;
+  margin-top: 30px;
+  padding: 14px 35px;
+  background-color: #05254d;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+  border-radius: 10px;
+} 
+
+#update .update-container a:hover{
+  background-color: #fff;
+  color: black;
+}
+
+/*======================================
+   update  css end
+========================================*/
+
+
+
+
+
+
+/*======================================
+   footer css start
+========================================*/
+
+#footer{
+  width: 98%;
+  margin: 0 auto;
+  clear: both;
+  margin-top: 10px;
+}
+
+#footer .inner-footer{
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.inner-footer .footer-area{
+  width: 23%;
+  margin: 1%;
+  float: left;
+}
+
+.inner-footer .last-child{
+  margin-top: 0px;
+}
+
+.inner-footer .footer-area h3{
+  color: #fff;
+}
+
+.inner-footer .footer-area p{
+  color: #fff;
+}
+
+#footer .footers{
+  width: 100%;
+  margin: 0 auto;
+  padding: 14px 0;
+  background-color: black;
+}
+
+#footer .footers p{
+  text-align: center;
+  color: #fff;
+}
+
+/*======================================
+   footer  css end
+========================================*/
